@@ -25,8 +25,33 @@
     <input type="email" id="email"name="email"placeholder=nome@provedor.com>
     </p>
     <label for="data-nasc">Data de nascimento:</label><br>
-    <input type="date" id="data-nasc"name="data-nacs>"
+    <input type="date" id="data-nasc"name="data-nacs">
+</p>
+<label>Quais esportes e lazer vovê prática?(Marque quantos quiser)</label><br>
+    <input type="checkbox" id="esp1"name="esportes"value="futebol">
+    <label for="esp1">Futebol de Campo / Quadra</label><br></p>
+    <input type="checkbox" id="esp2"name="esportes"value="skate">
+    <label for="esp2">Skate / Patins</label><br></p>
+</p>
+<p>
+<label for="marca">Qual marca de roupa ou  tênis você gosta?</label><br>
+    <input list="marca" id="Marca" name="marca" placeholder="Digite ou selecione...">
+    </p>
+<datalist id="marca">
+<option value="Gucci">
+<option value="Nike">
+<option value="LV">
+</p>
+<p>
+<label for="instituição">Onde você foca seus estudos atualmente?</label><br>
+<select id="Instituição" name="instituição">
+    <option value="">Selecione...</option>
+    <option value="Universidade">Universidade</option>
+    <option value="Faculdade">Faculdade</option>
+    <option value="Escola">Escola</option>
+</select>
 
+</datalist>
     </div>
 </body>
 </html>
